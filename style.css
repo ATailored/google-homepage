@@ -1,0 +1,57 @@
+#logo {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#google-search, #feeling-lucky {
+    display: inline-block;
+    text-align: center;
+    background-color: #f2f2f2;
+    text height: 34px;
+}
+#google-search {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    margin-right: -60%;
+    transform: translate(-60, -60%)
+}
+#feeling-lucky {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -40%;
+    transform: translate(-40, -40%)
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding-left: 27px;
+    color: gray;
+    text-decoration: none;
+}
+.footer {
+    padding-right: 8px;
+    color: gray;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    line-height: 40px;
+}
